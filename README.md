@@ -1,1 +1,0 @@
-# pankajsy.github.io
