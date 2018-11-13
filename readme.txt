@@ -7,4 +7,5 @@ CEEVEE is released under the Creative Commons Attribution 3.0 License
    to Remix - to make derivative works
    to make commercial use of the work 
 -----------------------------------------------------------------------------
-React Portfolio using a design by StyleShout deployed on GitHub-Pages https://pankajsy.github.io/
+React Portfolio using a design by StyleShout deployed on GitHub-Pages below:
+https://pankajsy.github.io/
