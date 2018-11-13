@@ -188,18 +188,18 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: white;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
+#about a, #about a:visited  { color: black; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #fff;
+   color: black;
    margin-bottom: 12px;
 }
 #about p {
@@ -231,7 +231,54 @@ ul#nav li.current a { color: #F06000; }
    font-size: 20px;
 }
 
+/* ------------------------------------------------------------------ */
+/* c. Skills Section
+/* ------------------------------------------------------------------ */
 
+#skills {
+  background: black;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+}
+
+#skills a, #skills a:visited  { color: #fff; }
+#skilss a:hover, #skills a:focus { color: #11ABB0; }
+
+#skills h2 {
+  font: 22px/30px 'opensans-bold', sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+  margin-left: 30px;
+}
+#skills p {
+  line-height: 30px;
+  color: #7A7A7A;
+}
+#skills .skills-pic {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+#skills .contact-details { width: 41.66667%; }
+#skills .download {
+  width: 58.33333%;
+  padding-top: 6px;
+}
+#skills .main-col { padding-right: 5%; }
+#skills .download .button {
+  margin-top: 6px;
+  background: #444;
+}
+#skills .download .button:hover {
+  background: #fff;
+  color: #2B2B2B;
+}
+#skills .download .button i {
+  margin-right: 15px;
+  font-size: 20px;
+}
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
