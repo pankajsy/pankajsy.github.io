@@ -58,14 +58,14 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
+   font: 90px/1.1em sans-serif;
    color: #fff;
-   letter-spacing: -2px;
+   letter-spacing: 2px;
    margin: 0 auto 18px auto;
    /* text-shadow: 0px 1px 3px rgba(0, 0, 0, .8); */
 }
 header .banner-text h3 {
-   font: 18px/1.9em 'librebaskerville-regular', serif;
+   font: 14px/1.9em 'librebaskerville-regular', serif;
    color: #fff;
    margin: 0 auto;
    width: 70%;
@@ -168,7 +168,7 @@ ul#nav li a {
    display: inline-block;
    padding: 8px 13px;
    line-height: 32px;
-	text-decoration: none;
+	 text-decoration: none;
    text-align: left;
    color: #fff;
 
@@ -542,8 +542,8 @@ ul#nav li.current a { color: #F06000; }
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-   font: 12px/18px 'opensans-light', sans-serif;
-   color: #c6c7c7;
+   font: 14px/25px 'opensans-light', sans-serif;
+   color: white;
    margin-bottom: 0;
 }
 
@@ -582,7 +582,7 @@ ul#nav li.current a { color: #F06000; }
    color: #A1A1A1;
    text-transform: uppercase;
    letter-spacing: 2px;
-   display: block;
+   display: block;    
    text-align: left;
 }
 .popup-modal .description-box .categories i {
@@ -729,17 +729,17 @@ call-to-action .button {
 }
 #testimonials blockquote:before { content: none; }
 #testimonials blockquote p {
-   font-family: 'librebaskerville-italic', serif;
+   font-family:serif;
    padding: 0;
-   font-size: 24px;
-   line-height: 48px;
+   font-size: 17px;
+   /* line-height: 48px; */
    color: #fff
 }
 #testimonials blockquote cite {
    display: block;
-   font-size: 12px;
+   font-size: 15px;
    font-style: normal;
-   line-height: 18px;
+   /* line-height: 18px; */
    color: #fff;
 }
 #testimonials blockquote cite:before { content: "\2014 \0020"; }
@@ -841,13 +841,13 @@ call-to-action .button {
    padding-bottom: 102px;
    color: #636363;
 }
-#contact .section-head { margin-bottom: 42px; }
+#contact .section-head { margin-bottom: 10px; }
 
 #contact a, #contact a:visited  { color: #11ABB0; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 18px/24px sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
@@ -866,7 +866,7 @@ call-to-action .button {
 }
 
 #contact h4 {
-   font: 16px/24px 'opensans-bold', sans-serif;
+   font: 16px/24px  sans-serif;
    color: #EBEEEE;
    margin-bottom: 6px;
 }
