@@ -35,7 +35,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/bgdrawing.png) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -307,13 +307,13 @@ ul#nav li.current a { color: #F06000; }
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
-   padding-top: 50px;
+   padding-top: 20px;
 
 }
 #resume .profile-pic {
    /* position: relative; */
-   width: 150px;
-   height: 150px;
+   width: 100px;
+   height: 100px;
    border-radius: 100%;
    float: left;
 }
