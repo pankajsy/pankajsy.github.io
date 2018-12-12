@@ -421,7 +421,251 @@ ul#nav li.current a { color: #F06000; }
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
-/* ------------------------------------------------------------------ */
+
+
+/** 
+ * Resume 2 changes ===================================================================
+ * 08. common styles (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+ .grey-section {
+	background: #ebebeb;
+}
+.grey-section p.lead {
+	color: #7d7d7d;
+}
+.section-intro {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 3.6rem;
+	position: relative;
+}
+.section-intro h1 {
+	font-family: "poppins-semibold", serif;
+	font-size: 3.6rem;
+	color: #313131;
+	line-height: 1.25;
+	margin-bottom: 1.2rem;
+}
+.section-intro h5 {
+	color: #57068C;
+	font-size: 1.6rem;
+	line-height: 1.875;
+	margin-bottom: 0.3rem;
+	letter-spacing: .4rem;
+}
+
+/**
+ * responsive:
+ * common styles
+ * ------------------------------------------------------------------- 
+ */
+@media only screen and (max-width:768px) {
+	.section-intro {
+		max-width: 650px;
+	}
+	.section-intro h1 {
+		font-size: 3rem;
+	}
+}
+@media only screen and (max-width:600px) {
+	.section-intro h1 {
+		font-size: 2.6rem;
+	}
+	.section-intro h5 {
+		font-size: 1.5rem;
+		letter-spacing: .3rem;
+	}
+}
+@media only screen and (max-width:400px) {
+	.section-intro h1 {
+		font-size: 2.4rem;
+	}
+}
+
+
+/** 
+ * ===================================================================
+ * 12. Resume 2 - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+ #resume2 {
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+}
+
+#resume2 .resume2-header {
+	text-align: center;
+}
+#resume2 .resume2-header h2 {
+	color: #57068c;
+}
+#resume2 .profile-pic {
+   /* position: relative; */
+   width: 100px;
+   height: 100px;
+   border-radius: 100%;
+   margin-left: 30px;
+   margin-right: 30px;
+}
+p { margin: 0 0 0 0; }
+
+#resume2 .resume2-timeline {
+	max-width: 1073px;
+}
+#resume2 .timeline-wrap {
+	position: relative;
+	margin-top: 1.5rem;
+	margin-bottom: 6rem;
+}
+#resume2 .timeline-wrap::before {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.1);
+	position: absolute;
+	left: 35%;
+	top: 0;
+}
+#resume2 .timeline-block {
+	position: relative;
+	padding-top: 1.5rem;
+}
+#resume2 .timeline-ico {
+	height: 4.8rem;
+	width: 4.8rem;
+	line-height: 4.8rem;
+	background: #313131;
+	border-radius: 50%;
+	text-align: center;
+	color: #FFFFFF;
+	position: absolute;
+	left: 35%;
+	top: .9rem;
+	margin-left: -2.4rem;
+}
+#resume2 .timeline-ico i {
+	position: relative;
+	left: .05rem;
+	top: .2rem;
+}
+
+#resume2 .timeline-header {
+	float: left;
+	width: 35%;
+	padding-right: 90px;
+	text-align: right;
+}
+#resume2 .timeline-header h3 {
+	margin-bottom: 0;
+}
+#resume2 .timeline-header p {
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.6rem;
+	color: #888888;
+}
+#resume2 .timeline-content {
+	margin-left: 35%;
+	padding-left: 60px;
+}
+#resume2 .timeline-content h4 {
+	position: relative;
+	padding-bottom: 1.8rem;
+}
+#resume2 .timeline-content h4::after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 50px;
+	background: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+/**
+ * responsive:
+ * resume
+ * ------------------------------------------------------------------- 
+ */
+@media only screen and (max-width:1024px) {
+	#resume2 .timeline-header {
+		padding-right: 50px;
+	}
+	#resume2 .timeline-header h3 {
+		font-size: 1.8rem;
+	}
+	#resume2 .timeline-header p {
+		font-size: 1.4rem;
+	}
+	#resume2 .timeline-content {
+		padding-left: 50px;
+	}
+}
+@media only screen and (max-width:768px) {
+	#resume2 .timeline-wrap::before {
+		left: 2.4rem;
+	}
+	#resume2 .timeline-ico {
+		left: 2.4rem;
+	}
+	#resume2 .timeline-header {
+		float: none;
+		width: auto;
+		padding-right: 15px;
+		text-align: left;
+	}
+	#resume2 .timeline-header h3 {
+		font-size: 2rem;
+	}
+	#resume2 .timeline-header p {
+		font-size: 1.5rem;
+		margin-bottom: 1.5rem;
+	}
+	#resume2 .timeline-content {
+		margin: 0;
+	}
+	#resume2 .timeline-content h4 {
+		padding-bottom: 0;
+		padding-top: 2.1rem;
+		margin-bottom: .6rem;
+		font-size: 1.7rem;
+	}
+	#resume2 .timeline-content h4::after {
+		bottom: auto;
+		top: 0;
+	}
+	#resume2 .timeline-header, #resume2 .timeline-content {
+		padding-left: 7rem;
+	}
+}
+@media only screen and (max-width:480px) {
+	#resume2 .resume2-header h2 {
+		font-size: 2.2rem;
+	}
+	#resume2 .timeline-wrap::before {
+		left: 1.8rem;
+	}
+	#resume2 .timeline-ico {
+		height: 3.6rem;
+		width: 3.6rem;
+		line-height: 3.6rem;
+		left: 1.8rem;
+		margin-left: -1.8rem;
+		font-size: 1.5rem;
+	}
+	#resume2 .timeline-header, #resume2 .timeline-content {
+		padding-left: 5.5rem;
+	}
+}
+
+
+/*END resume 2 ------------------------------------------------------------------ */
 /* d. Work Section
 /* ------------------------------------------------------------------ */
 
@@ -470,6 +714,186 @@ ul#nav li.current a { color: #F06000; }
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
+
+/** 
+ * ===================================================================
+ * 12. Work 2 - (_layout.scss)
+ *
+ * ------------------------------------------------------------------- 
+ */
+ #work2 {
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+}
+
+#work2 .work2-header {
+	text-align: center;
+}
+#work2 .work2-header h2 {
+	color: #57068c;
+}
+#work2 .profile-pic {
+   /* position: relative; */
+   width: 100px;
+   height: 100px;
+   border-radius: 100%;
+   margin-left: 30px;
+   margin-right: 30px;
+}
+p { margin: 0 0 0 0; }
+
+#work2 .work2-timeline {
+	max-width: 1073px;
+}
+#work2 .timeline-wrap {
+	position: relative;
+	margin-top: 1.5rem;
+	margin-bottom: 6rem;
+}
+#work2 .timeline-wrap::before {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.1);
+	position: absolute;
+	left: 35%;
+	top: 0;
+}
+#work2 .timeline-block {
+	position: relative;
+	padding-top: 1.5rem;
+}
+#work2 .timeline-ico {
+	height: 4.8rem;
+	width: 4.8rem;
+	line-height: 4.8rem;
+	background: #313131;
+	border-radius: 50%;
+	text-align: center;
+	color: #FFFFFF;
+	position: absolute;
+	left: 35%;
+	top: .9rem;
+	margin-left: -2.4rem;
+}
+#work2 .timeline-ico i {
+	position: relative;
+	left: .05rem;
+	top: .2rem;
+}
+
+#work2 .timeline-header {
+	float: left;
+	width: 35%;
+	padding-right: 90px;
+	text-align: right;
+}
+#work2 .timeline-header h3 {
+	margin-bottom: 0;
+}
+#work2 .timeline-header p {
+	font-family: "poppins-regular", sans-serif;
+	font-size: 1.6rem;
+	color: #888888;
+}
+#work2 .timeline-content {
+	margin-left: 35%;
+	padding-left: 60px;
+}
+#work2 .timeline-content h4 {
+	position: relative;
+	padding-bottom: 1.8rem;
+}
+#work2 .timeline-content h4::after {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 50px;
+	background: rgba(0, 0, 0, 0.2);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+/**
+ * responsive:
+ * work2
+ * ------------------------------------------------------------------- 
+ */
+@media only screen and (max-width:1024px) {
+	#work2 .timeline-header {
+		padding-right: 50px;
+	}
+	#work2 .timeline-header h3 {
+		font-size: 1.8rem;
+	}
+	#work2 .timeline-header p {
+		font-size: 1.4rem;
+	}
+	#work2 .timeline-content {
+		padding-left: 50px;
+	}
+}
+@media only screen and (max-width:768px) {
+	#work2 .timeline-wrap::before {
+		left: 2.4rem;
+	}
+	#work2 .timeline-ico {
+		left: 2.4rem;
+	}
+	#work2 .timeline-header {
+		float: none;
+		width: auto;
+		padding-right: 15px;
+		text-align: left;
+	}
+	#work2 .timeline-header h3 {
+		font-size: 2rem;
+	}
+	#work2 .timeline-header p {
+		font-size: 1.5rem;
+		margin-bottom: 1.5rem;
+	}
+	#work2 .timeline-content {
+		margin: 0;
+	}
+	#work2 .timeline-content h4 {
+		padding-bottom: 0;
+		padding-top: 2.1rem;
+		margin-bottom: .6rem;
+		font-size: 1.7rem;
+	}
+	#work2 .timeline-content h4::after {
+		bottom: auto;
+		top: 0;
+	}
+	#work2 .timeline-header, #work2 .timeline-content {
+		padding-left: 7rem;
+	}
+}
+@media only screen and (max-width:480px) {
+	#work2 .work2-header h2 {
+		font-size: 2.2rem;
+	}
+	#work2 .timeline-wrap::before {
+		left: 1.8rem;
+	}
+	#work2 .timeline-ico {
+		height: 3.6rem;
+		width: 3.6rem;
+		line-height: 3.6rem;
+		left: 1.8rem;
+		margin-left: -1.8rem;
+		font-size: 1.5rem;
+	}
+	#work2 .timeline-header, #work2 .timeline-content {
+		padding-left: 5.5rem;
+	}
+}
+
+
+/*END Work 2 ------------------------------------------------------------------ */
 /** 
  * ===================================================================
  * 03. grid - (_grid.scss)
