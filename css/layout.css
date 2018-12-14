@@ -249,7 +249,14 @@ ul#nav li.current a { color: #F06000; }
 #about2 .section-intro {
 	margin-bottom: 3rem;
 }
-
+#about2 .profile-pic {
+   /* position: relative; */
+   width: 175px;
+   height: 175px;
+   border-radius: 100%;
+   margin-left: 30px;
+   margin-right: 30px;
+}
 .intro-info {
 	margin-top: 4.2rem;
 	margin-right: -30px;
